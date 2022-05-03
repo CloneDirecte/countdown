@@ -8,9 +8,10 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <App />
+    <h2 className="actualisation">Actualisé tous les jours à 12h</h2>
     <div className="footer">
       <h1>
-        Découvrez{" "}
+        Découvrez {" "}
         <a href="https://notes.clonedirecte.cf">notes.clonedirecte.cf</a>
       </h1>
     </div>
